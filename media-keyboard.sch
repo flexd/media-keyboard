@@ -348,10 +348,10 @@ Wire Wire Line
 Wire Wire Line
 	1500 2300 1200 2300
 $Comp
-L Device:C_Small C6
+L Device:C_Small C3
 U 1 1 5D6C181C
 P 2300 2650
-F 0 "C6" H 2392 2696 50  0000 L CNN
+F 0 "C3" H 2392 2696 50  0000 L CNN
 F 1 "1uF" H 2392 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 2650 50  0001 C CNN
 F 3 "~" H 2300 2650 50  0001 C CNN
@@ -376,10 +376,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 2500 2650 2500
 $Comp
-L Device:C_Small C2
+L Device:C_Small C5
 U 1 1 5D6C4F32
 P 1300 3750
-F 0 "C2" H 1392 3796 50  0000 L CNN
+F 0 "C5" H 1392 3796 50  0000 L CNN
 F 1 "0.1uF" H 1392 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1300 3750 50  0001 C CNN
 F 3 "~" H 1300 3750 50  0001 C CNN
@@ -387,10 +387,10 @@ F 3 "~" H 1300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C6
 U 1 1 5D6C5971
 P 1800 3750
-F 0 "C5" H 1892 3796 50  0000 L CNN
+F 0 "C6" H 1892 3796 50  0000 L CNN
 F 1 "0.1uF" H 1892 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 3750 50  0001 C CNN
 F 3 "~" H 1800 3750 50  0001 C CNN
@@ -409,10 +409,10 @@ F 3 "~" H 2300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L Device:C_Small C4
 U 1 1 5D6C6336
 P 800 3750
-F 0 "C1" H 892 3796 50  0000 L CNN
+F 0 "C4" H 892 3796 50  0000 L CNN
 F 1 "0.1uF" H 892 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 800 3750 50  0001 C CNN
 F 3 "~" H 800 3750 50  0001 C CNN
@@ -485,10 +485,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 1400 1950 1400
 $Comp
-L Device:C_Small C3
+L Device:C_Small C1
 U 1 1 5D6DB3AC
 P 1600 1400
-F 0 "C3" V 1550 1250 50  0000 C CNN
+F 0 "C1" V 1550 1250 50  0000 C CNN
 F 1 "22uF" V 1550 1550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 1400 50  0001 C CNN
 F 3 "~" H 1600 1400 50  0001 C CNN
@@ -496,10 +496,10 @@ F 3 "~" H 1600 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C2
 U 1 1 5D6DBD91
 P 1600 1600
-F 0 "C4" V 1550 1450 50  0000 C CNN
+F 0 "C2" V 1550 1450 50  0000 C CNN
 F 1 "22uF" V 1550 1750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 1600 50  0001 C CNN
 F 3 "~" H 1600 1600 50  0001 C CNN
@@ -629,7 +629,7 @@ U 1 1 5D7046E6
 P 5450 1050
 F 0 "F1" V 5245 1050 50  0000 C CNN
 F 1 "500mA" V 5336 1050 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5500 850 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 5500 850 50  0001 L CNN
 F 3 "~" H 5450 1050 50  0001 C CNN
 	1    5450 1050
 	0    1    1    0   
@@ -765,4 +765,62 @@ Connection ~ 8950 2100
 Wire Wire Line
 	9950 1850 9950 2100
 Connection ~ 9950 2100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D68BBB7
+P 8450 800
+F 0 "H1" H 8550 846 50  0000 L CNN
+F 1 "MountingHole" H 8550 755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 800 50  0001 C CNN
+F 3 "~" H 8450 800 50  0001 C CNN
+	1    8450 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D68BD96
+P 8450 1000
+F 0 "H2" H 8550 1046 50  0000 L CNN
+F 1 "MountingHole" H 8550 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 1000 50  0001 C CNN
+F 3 "~" H 8450 1000 50  0001 C CNN
+	1    8450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D68C0D1
+P 8450 1200
+F 0 "H3" H 8550 1246 50  0000 L CNN
+F 1 "MountingHole" H 8550 1155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 1200 50  0001 C CNN
+F 3 "~" H 8450 1200 50  0001 C CNN
+	1    8450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D68C3DE
+P 8450 1400
+F 0 "H4" H 8550 1446 50  0000 L CNN
+F 1 "MountingHole" H 8550 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 1400 50  0001 C CNN
+F 3 "~" H 8450 1400 50  0001 C CNN
+	1    8450 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2800 2    50   Input ~ 0
+row0
+Text GLabel 3850 3000 2    50   Input ~ 0
+row1
+Text GLabel 3850 2100 2    50   Input ~ 0
+col0
+Text GLabel 3850 1800 2    50   Input ~ 0
+col1
+Text GLabel 3850 1700 2    50   Input ~ 0
+col2
+Text GLabel 3850 1600 2    50   Input ~ 0
+col3
+Text GLabel 3850 3100 2    50   Input ~ 0
+col4
 $EndSCHEMATC
